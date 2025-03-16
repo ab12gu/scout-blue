@@ -1,6 +1,6 @@
-# frc-scouting-app
+# FRC Scouting Application
 
-scouting app for frc
+Scouting app for frc
 
 # Installation
 
