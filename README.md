@@ -2,6 +2,10 @@
 
 Scouting app for frc
 
+Domain Address:
+
+[https://ab12gu.github.io/frc-scouting-app/](https://ab12gu.github.io/frc-scouting-app/)
+
 # Installation
 
 1. Clone the repo locally:
