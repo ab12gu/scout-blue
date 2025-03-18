@@ -2,9 +2,7 @@
 
 Scouting app for frc
 
-Domain Address:
-
-[https://ab12gu.github.io/frc-scouting-app/](https://ab12gu.github.io/frc-scouting-app/)
+Domain Address: [https://scout.blue](https://scout.blue)
 
 # Installation
 
@@ -20,4 +18,9 @@ cd frc-scouting-app
 pip install -r requirements.txt
 ```
 
+# Deploy
 
+Local deploy, run:
+```
+python manage.py runserver
+```
