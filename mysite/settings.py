@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5z=&x)*to17tor#l*m_5!e!-0f&3x9(mklnh06m7!n245sjgf0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['scout-blue.onrender.com', 'scout.blue']
 
 
 # Application definition
