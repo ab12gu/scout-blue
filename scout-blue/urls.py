@@ -17,8 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import include, path
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("Welcome to Scout Blue!")
 
 urlpatterns = [
+    path('', home),
     path("polls/", include("polls.urls")),
     path('admin/', admin.site.urls),
 
