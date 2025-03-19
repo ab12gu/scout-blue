@@ -24,3 +24,8 @@ Local deploy, run:
 ```
 python manage.py runserver
 ```
+
+Ensure you are keeping the requirements.txt most up-to-date:
+```
+pip freeze > requirements.txt
+```
