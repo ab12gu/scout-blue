@@ -76,14 +76,23 @@ WSGI_APPLICATION = 'scout-blue.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'scout_blue',
-        'USER': 'scout_user',
-        'PASSWORD': 'frc',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'ENGINE': "django.db.backends.postgresql",
+        'OPTIONS': {
+            'service': 'my_service',
+            'passfile': '.my_pgpass'
+        },
     }
 }
+
+
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'scout_blue',
+#        'USER': 'scout_user',
+#        'PASSWORD': 'frc',
+#        'HOST': 'localhost',
+#        'PORT': '5432',
+#    }
 
 
 # Password validation

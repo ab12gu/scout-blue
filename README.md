@@ -29,3 +29,18 @@ Ensure you are keeping the requirements.txt most up-to-date:
 ```
 pip freeze > requirements.txt
 ```
+
+# Architecture
+
+Languages:
+- Frontend: `HTML/CSS`
+- Backend: `Python`
+- DB: `SQL`
+
+Libraries/structure: 
+- Web Framework: `Django`
+- Backend DB: `Postgresql`
+
+Hosting websites
+- Hosting Platform: `Render`
+- DB Host: `Subabase`
