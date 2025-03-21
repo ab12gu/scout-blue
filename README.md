@@ -18,6 +18,11 @@ cd frc-scouting-app
 pip install -r requirements.txt
 ```
 
+3. Start virtual environment
+```
+source ./.venv/bin/activate
+```
+
 # Deploy
 
 Local deploy, run:
